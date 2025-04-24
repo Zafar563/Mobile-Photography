@@ -111,6 +111,7 @@ header {
 }
 .join-btn a{
     color: #fff;
+    text-decoration: none;
 }
 .join-btn:hover {
     background: darkblue;
@@ -219,3 +220,34 @@ footer {
     font-size: 18px;
     line-height: 1.6;
 }
+
+
+.site-footer {
+    background-color: #747373;
+    padding: 30px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    margin: 0 15px;
+    color: #bec8d3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #0056b3;
+  }
+  
