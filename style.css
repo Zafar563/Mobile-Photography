@@ -134,7 +134,7 @@ header {
     padding: 15px;
 }
 .resource-item:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
     transition: 0.3s ease-in-out;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }

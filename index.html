@@ -18,7 +18,7 @@
                         <li><a href="tarix.html">Tarix</a></li>
                         <li><a href="advise.html">Maslahatlar</a></li>
                         <li><a href="textbook.html">Darsliklar</a></li>
-                        <li><a href="#">Jamiyat</a></li>
+                 
                     </ul>
                 </nav>
                 <button class="join-btn"><a href="login.html">Ro`yxatdan o`tish</a></button>
@@ -93,4 +93,28 @@
       </footer>
    </div>
 </body>
+<script src="index.js"></script>
+<!-- Tugma HTML -->
+<button id="scrollTopBtn" style="display:none; position:fixed; bottom:20px; right:20px;">⬆️</button>
+
+<script>
+    window.onload = function () {
+    alert("Xush kelibsiz! Foto maslahatlar bilan tanishing.");
+};
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("scrollTopBtn");
+
+    window.addEventListener("scroll", function () {
+        btn.style.display = (window.scrollY > 100) ? "block" : "none";
+    });
+
+    btn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+});
+</script>
+
 </html>
